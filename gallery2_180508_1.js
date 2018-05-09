@@ -33,7 +33,6 @@ function draw() {
   strokeWeight(5);
   rectMode(CENTER);
   rect(xPos,yPos,diam,diam);
-
 }
 function keyPressed() {
   
