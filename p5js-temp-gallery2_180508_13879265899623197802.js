@@ -1,11 +1,10 @@
 var img;
 var xPos, yPos;
-function preload() {
-  img = loadImage('img1.jpg');
-}
+
 function setup() {
   createCanvas(640,800);
   background(0);
+  img = loadImage('img1.jpg');
   noStroke()
   img.loadPixels();
   xPos=width/2;
