@@ -5,8 +5,7 @@ function setup() {
   createCanvas(640,800);
   background(0);
   img = loadImage('img1.jpg');
-  noStroke()
-  img.loadPixels();
+  noStroke();
   xPos=width/2;
   yPos=height/2;
 }
